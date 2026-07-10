@@ -1,9 +1,10 @@
 import React from 'react'
+import NaviBar from './NaviBar'
 
 const DeleteBoat = () => {
   return (
     <div>
-        
+        <NaviBar/>
             <div className="container">
             <div className="row">
                 <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
@@ -16,7 +17,7 @@ const DeleteBoat = () => {
                     </div>
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
-                            <buttton className="btn-btn-success">Delete</buttton>
+                           <button className="btn btn-danger">Delete</button>
 
                     </div>
                 </div>
